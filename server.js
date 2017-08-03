@@ -21,6 +21,8 @@ app.use((req, res, next) => {
   next();
 });
 
+
+// no next() => every request will stop here
 // app.use((req, res, next) => {
 //   res.render('maintenance.hbs', {
 //     message: 'Please come back soon'
